@@ -13,9 +13,7 @@ module.exports = withPlugins(
     [
       withTM,
       {
-        transpileModules: [
-          "react-bulma-components",
-        ],
+        transpileModules: [""],
       },
     ],
     [withFonts, {}],
